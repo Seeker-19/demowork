@@ -247,7 +247,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-[2fr_1fr] gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] lg:grid-cols-[2fr_1fr] gap-4">
             <div className="h-full">
               <div className="h-80 relative transition-transform transform hover:translate-y-[-8px] cursor-pointer">
                 <img
@@ -353,7 +353,7 @@ const Home = () => {
             BOOKING PROCESS
           </span>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-7 px-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 place-items-center gap-4 mt-7 px-20">
           <div className="drop flex flex-col gap-2 px-10 py-6 border shadow-xl border-gray-200 rounded-2xl md:w-40 lg:w-60 ">
             <div>
               <svg
